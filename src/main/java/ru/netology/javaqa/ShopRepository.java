@@ -44,7 +44,6 @@ public class ShopRepository {
 
     // Этот способ мы рассматривали в теории в теме про композицию
     public void remove(int id) {
-
         if (findById(id) == null) {
             throw new NotFoundException(
                     "Element with id: " + id + " not found"
@@ -60,19 +59,6 @@ public class ShopRepository {
         }
         products = tmp;
     }
-    // public void adding(int id) {
 
-    //if (findById(product.getId() == id)) {
-    //      throw new AlreadyExistsException(
-    //             "Element with id: " + product.getId() + " already present"
-    //     );
-    // }
-    //Product[] tmp = new Product[products.length + 1];
-    // for (int i = 0; i < products.length; i++) {
-    //     tmp[i] = products[i];
-    // }
-    // tmp[tmp.length - 1] = newProduct;
-    // products = tmp;
-    // }
 
 }

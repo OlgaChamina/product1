@@ -32,29 +32,5 @@ public class ShopRepositoryTest {
             repo.remove(33);
         });
     }
-    //@Test
-    // public void shouldAddRelevantId() {
-    //   ShopRepository repo = new ShopRepository();
-    //  Product product4 = new Product(18, "Куртка", 17_200);
-    //  repo.add(product1);
-    //  repo.add(product2);
-    // repo.add(product3);
-    //repo.adding(product4);
-
-    //  Product[] expected = {product1, product2,product3,product4};
-    //  Product[] actual = repo.findAll();
-    //  Assertions.assertArrayEquals(expected, actual);
-    //}
-    // @Test
-    // public void shouldAddRepeatedId() {
-    //    ShopRepository repo = new ShopRepository();
-    //   repo.add(product1);
-    //  repo.add(product2);
-    //  repo.add(product3);
-
-    //  Assertions.assertThrows(NotFoundException.class, () -> {
-    // repo.adding(product1);
-    // });
-    //}
 
 }
